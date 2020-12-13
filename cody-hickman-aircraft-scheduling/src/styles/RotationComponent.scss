@@ -1,0 +1,31 @@
+@import "sass/variables";
+
+.rotation-flight-container {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: white;
+    color: $secondary;
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    border-bottom: 1px solid #aaaaaa;
+    border-radius: 6px;
+    box-shadow: 2px 5px 8px #888888;
+}
+
+.rotation-flight-container:first-child {
+    margin-top: 0px;
+}
+
+.rotation-start-div {
+    height: 200px;
+    text-align: center;
+    color: $secondary;
+    line-height: 200px;
+}
+
+.trash-icon {
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+@import "sass/mixins";
+@import "sass/helpers";
+@import "sass/variables";
+
+body, html {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  line-height: normal;
+  background-color: #f2f2f2;
+}
+
+.main-container {
+  margin-top: 20px;
+}
+
+.title-label {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.arrow-left {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.arrow-right {
+  cursor: pointer;
+  margin-left: 25px;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.text-align-right {
+  text-align: right;
+}

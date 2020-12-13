@@ -1,0 +1,13 @@
+@import '/mixins';
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.hide-on-xs {
+  display: none;
+
+  @include breakpoint(xs) {
+    display: block;
+  }
+}
