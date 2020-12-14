@@ -6,12 +6,6 @@ import Jets from '../images/jets.png';
 
 function Rotation({rotation, removeFlightFromRotationFunction}) {
 
-    const sortRotation = () => {
-        rotation.sort((a, b) => (a.readable_departure > b.readable_departure) ? 1 : -1);
-    }
-
-    sortRotation();
-
     return (
         <div>
             <div className={
